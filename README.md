@@ -14,15 +14,21 @@ read.csv("https://raw.githubusercontent.com/symbiobase/symbioID/main/Symbiobase.
 
 ### Revision History
 
-Access [revision history](https://github.com/symbiobase/symbioID/commits/main/Symbiobase.csv)
+For reproducible code, link to the `SHA` hash of a specific commit in the [revision history](https://github.com/symbiobase/symbioID/commits/main/Symbiobase.csv). 
 
-For reproducible code, link to the `SHA` hash of a specific commit in the revision history. Replace `main`
+Replace `/main/`
 
-`raw.githubusercontent.com/symbiobase/symbioID/main/Symbiobase.csv`
+```
+raw.githubusercontent.com/symbiobase/symbioID/main/Symbiobase.csv
+```
 
-with the `SHA` version:
+with the `SHA` version, e.g. `/714aa24/`:
 
-`raw.githubusercontent.com/symbiobase/symbioID/714aa24/Symbiobase.csv`
+```
+raw.githubusercontent.com/symbiobase/symbioID/714aa24/Symbiobase.csv
+```
+
+For example:
 
 ```{r}
 
