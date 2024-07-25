@@ -1,6 +1,6 @@
 ### Collection metadata 
 
-Access collection:
+Access the most up to date revision of the symbioBase collection via .csv:
 
 ```{r}
 
