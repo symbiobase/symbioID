@@ -16,6 +16,20 @@ read.csv("https://raw.githubusercontent.com/symbiobase/symbioID/main/Symbiobase.
 
 Access [revision history](https://github.com/symbiobase/symbioID/commits/main/Symbiobase.csv)
 
+For reproducible code, link to the `SHA` hash of a specific commit in the revision history. Replace `main`
+
+`raw.githubusercontent.com/symbiobase/symbioID/main/Symbiobase.csv`
+
+with the `SHA` version:
+
+`raw.githubusercontent.com/symbiobase/symbioID/714aa24/Symbiobase.csv`
+
+```{r}
+
+read.csv("https://raw.githubusercontent.com/symbiobase/symbioID/714aa24/Symbiobase.csv") |> 
+  str()
+
+```
 
 ![Screenshot 2024-07-25 at 11 32 27 AM](https://github.com/user-attachments/assets/3c422b51-e03e-4161-9df4-5683e637197b)
 
